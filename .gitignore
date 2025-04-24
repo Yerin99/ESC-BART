@@ -1,0 +1,7 @@
+.cursor
+
+# Python 관련 파일
+__pycache__/
+
+# 로그 파일
+*.log
