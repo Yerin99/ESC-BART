@@ -37,12 +37,14 @@ class ESConvProcessor:
     
     # 감정 ID 매핑 (ESConv 데이터셋 기준)
     EMOTION_MAP = {
-        "anger": 0,
+        "depression": 0,
         "anxiety": 1,
-        "depression": 2,
-        "sadness": 3,
+        "sadness": 2,
+        "anger": 3,
         "fear": 4,
-        "other": 5
+        "shame": 5,
+        "disgust": 6,
+        "nervousness": 7
     }
     
     def __init__(self, tokenizer_name: str = "facebook/bart-base", max_source_length: int = 512, max_target_length: int = 128):
