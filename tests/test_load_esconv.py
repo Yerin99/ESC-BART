@@ -3,7 +3,7 @@ import os
 import pytest
 
 # Add project root directory to path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 
 from src.data.load_esconv import load_esconv_dataset, parse_example_data, get_example_fields
 
